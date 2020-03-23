@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1600px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    z-index: 999;
+
+    .hamburger {
+        display: none;
+
+    }
+
+    .nav_item {
+        display: inline-block;
+        margin-left: 50px;
+
+        a {
+            color: black;
+            position: relative;
+            font-weight: bolder;
+            font-size: 14px;
+            transition: all 0.5s;
+
+            &.active,
+            &:hover {
+                color: #D0304D;
+                transform: translateX(10px);
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .nav {
+        .logo {
+            img {
+                width: 150px;
+            }
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        .nav_items {
+            display: none;
+        }
+    }
+}
