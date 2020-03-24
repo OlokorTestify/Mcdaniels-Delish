@@ -9,13 +9,16 @@ const Why = () => {
     return (
         <>
             <section className='why'>
-                <div>
+                <div className='big_circle'></div>
+                <div className='small_circle'></div>
+                <div className='item pic'>
                     <img src={img1} alt='balcony' />
                 </div>
-                <div>
+                <div className='item content'>
+
                     <h1>Why Us</h1>
 
-                    <div>
+                    <div className='text'>
 
                         <div>
                             <h2>1. We are Customer driven</h2>
