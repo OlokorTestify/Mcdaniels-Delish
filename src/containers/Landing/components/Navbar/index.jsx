@@ -11,7 +11,7 @@ const Navbar = (props) => {
 
     const [change, setChange] = useState(false)
     const [isActive, setIsActive] = useState(false)
-    const changePosition = 985
+    const changePosition = 950
 
     const position = useWindowScrollPosition()
 
@@ -32,10 +32,10 @@ const Navbar = (props) => {
         zIndex: 99,
         right: 0,
         left: 0,
-        top: '20px',
+        top: change ? 0 : '20px',
     };
     const navStyle = {
-        marginBottom: change ? '15px' : '30px',
+        marginBottom: change ? '0' : '30px',
         marginTop: change ? '15px' : '0px',
         transition: 'all 0.5s',
         paddingTop: change ? 0 : '0px'
