@@ -66,4 +66,19 @@
     }
 }
 
-// @media screen and (max-width:)
+@media screen and (max-width:1300px) {
+    .header {
+        .bg {
+            width: 63rem;
+        }
+
+        .main {
+            div {
+                img {
+                    height: 470px;
+                }
+            }
+        }
+
+    }
+}
