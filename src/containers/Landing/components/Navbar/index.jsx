@@ -11,7 +11,7 @@ const Navbar = (props) => {
 
     const [change, setChange] = useState(false)
     const [isActive, setIsActive] = useState(false)
-    const changePosition = 950
+    const changePosition = 700
 
     const position = useWindowScrollPosition()
 
