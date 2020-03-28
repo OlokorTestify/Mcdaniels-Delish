@@ -19,7 +19,6 @@ const Why = () => {
                     <h1>Why Us</h1>
 
                     <div className='text'>
-
                         <div>
                             <h2>1. We are Customer driven</h2>
                             <p>
