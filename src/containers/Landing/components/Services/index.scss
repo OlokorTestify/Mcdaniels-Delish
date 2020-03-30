@@ -1,45 +1,60 @@
-.service h1{
+.service h1 {
     text-align: center;
-    margin: 0 auto;
-    margin-top: 3rem;
-    font-family: pacifico;
+    font-family: 'Pacifico';
     color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 28px;
+    font-size: 32px;
+    padding-top: 7rem;
+    letter-spacing: 5px;
 }
 
-.service-sub{
-    width: 32%;
+.service-sub {
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.service{    
-    padding-top: 2rem; 
-    background: #d0304d;
-    background-repeat: no-repeat;
-    background-size: cover;
+.service {
+    margin: 10rem 0;
+    background: rgba(208, 48, 77, 0.9);
     position: relative;
+
+    .bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+    }
 }
 
-.service2{
+.service2 {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+
+
+    div {
+        width: 30%;
+    }
 }
-.service h2{
+
+
+.service h2 {
     text-align: center;
     font-size: 18px;
     color: #ffffff;
 }
-.service p{
+
+.service p {
     text-align: center;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .img {
@@ -49,6 +64,7 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     margin: 0 auto;
 }
+
 .img1 {
     height: 60px;
     width: 60px;

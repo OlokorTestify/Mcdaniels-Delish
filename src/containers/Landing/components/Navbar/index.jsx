@@ -52,14 +52,14 @@ const Navbar = (props) => {
                     </div>
                     <div className='nav_items'>
                         <div className='nav_item'>
-                            <a href='/'>About Us</a>
+                            <a href='#About'>About Us</a>
 
                         </div>
                         <div className='nav_item'>
-                            <a href='/blog'>Why Us</a>
+                            <a href='#Why'>Why Us</a>
                         </div>
                         <div className='nav_item'>
-                            <a href='#contact_form'>Contact Us</a>
+                            <a href='#Contact'>Contact Us</a>
                         </div>
                     </div>
                     {/* <div className="hamburger" onClick={() => setIsActive(!isActive)}>

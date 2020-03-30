@@ -8,7 +8,7 @@ const Why = () => {
 
     return (
         <>
-            <section className='why'>
+            <section className='why' id='Why'>
                 <div className='big_circle'></div>
                 <div className='small_circle'></div>
                 <div className='item pic'>
