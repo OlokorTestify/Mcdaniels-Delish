@@ -16,8 +16,16 @@
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (max-width:600px) {
+            flex-direction: column;
+        }
+
         div {
             width: 23%;
+
+            @media screen and (max-width:600px) {
+                width: 100%;
+            }
 
             img {
                 height: 320px;

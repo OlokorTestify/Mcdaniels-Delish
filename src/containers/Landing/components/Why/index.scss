@@ -6,6 +6,11 @@
     position: relative;
     overflow: hidden;
 
+    @media screen and (max-width:600px) {
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+
     .big_circle {
         position: absolute;
         top: 9rem;
@@ -31,6 +36,10 @@
     .item {
         width: 50%;
 
+        @media screen and (max-width:600px) {
+            width: 100%;
+        }
+
         h1 {
             font-family: 'Pacifico';
             color: #D0304D;
@@ -41,6 +50,10 @@
 
         .text {
             width: 70%;
+
+            @media screen and (max-width:600px) {
+                width: 100%;
+            }
 
             div {
                 margin-bottom: 3rem;
@@ -69,5 +82,12 @@
     .content {
         margin-top: 20rem;
         margin-left: 15rem;
+
+        @media screen and (max-width:600px) {
+            // margin-left: 5%;
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
     }
 }

@@ -2,6 +2,12 @@
     width: 60%;
     margin: 10% auto;
 
+    @media screen and (max-width:600px) {
+        width: 80%;
+        margin-top: 9rem;
+    }
+
+
     h1 {
         text-align: center;
         color: #D0304D;
@@ -17,10 +23,20 @@
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (max-width:600px) {
+            flex-direction: column;
+        }
+
         img {
             display: block;
             width: 27%;
             margin-bottom: 2rem;
+
+            @media screen and (max-width:600px) {
+                width: 100%;
+                margin-bottom: 3rem;
+
+            }
         }
     }
 }
