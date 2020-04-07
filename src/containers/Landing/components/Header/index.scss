@@ -52,18 +52,33 @@
                 }
 
             }
+           .btn_container{
+               display: flex;
+               flex-direction: row;
+           }
 
             button {
                 border: none;
-                padding: 10px 80px;
+                padding: 10px 0;
+                width:10rem;
                 border-radius: 10px;
                 text-align: center;
                 font-size: 1.1rem;
                 color: #D0304D;
                 transition: all 0.5s;
+                margin-right:10px;
+        
+
+                a{
+                    font-size: inherit;
+                    color:inherit;
+                    margin:0;
+                    padding:0;
+                    font-family: inherit;
+                }
 
                 &:hover {
-                    transform: translateX(10px)
+                    transform: translateX(5px)
                 }
             }
 

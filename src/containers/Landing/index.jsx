@@ -11,7 +11,7 @@ import Menu from './components/Menu'
 
 
 
-const Landing = () => {
+const Landing = (props) => {
 
     return (
         <>

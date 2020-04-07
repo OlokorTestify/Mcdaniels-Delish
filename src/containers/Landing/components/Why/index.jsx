@@ -9,7 +9,11 @@ const Why = () => {
     return (
         <>
             <section className='why' id='Why'>
-                <div className='big_circle'></div>
+                <div className='big_circle' 
+                data-aos-offset="200"
+                data-aos-delay="500"
+                   data-aos-duration="50000" 
+                   data-aos="fade-up"></div>
                 <div className='small_circle'></div>
                 <div className='item pic'>
                     <img src={img1} alt='balcony' />

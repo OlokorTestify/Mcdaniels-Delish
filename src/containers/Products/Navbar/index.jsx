@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { withRouter } from 'react-router-dom'
 import useWindowScrollPosition from '@rehooks/window-scroll-position'
 
-import Logo from '../../../../assets/images/r.svg'
+import Logo from '../../../assets/images/r.svg'
 
 import './index.scss'
 const Navbar = (props) => {
@@ -43,8 +43,8 @@ const Navbar = (props) => {
 
     return (
         <>
-            <div className="nav_container" style={style}>
-                <nav className='nav' style={navStyle}>
+            <div className="nav_cont" style={style}>
+                <nav className='nav2' style={navStyle}>
                     <div className='logo' onClick={() => {
                         props.history.push('/')
                     }} >
@@ -52,21 +52,10 @@ const Navbar = (props) => {
                     </div>
                     <div className='nav_items'>
                         <div className='nav_item'>
-                            <a href='#About'>About Us</a>
-
-                        </div>
-                        <div className='nav_item'>
-                            <a href='#Why'>Why Us</a>
-                        </div>
-                        <div className='nav_item'>
                             <a href='#Contact'>Contact Us</a>
                         </div>
                     </div>
-                    {/* <div className="hamburger" onClick={() => setIsActive(!isActive)}>
-                        <img src={Hamburger} alt="menu_icon" />
-                    </div> */}
                 </nav>
-                {/* <SideNav isActive={isActive} onClose={() => setIsActive(!isActive)} /> */}
             </div>
         </>
     )
