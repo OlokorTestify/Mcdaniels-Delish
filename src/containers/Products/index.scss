@@ -1,7 +1,8 @@
 .menu_page{
     position: relative;
     align-items: center;
-    background:rgba(5, 1, 2, 0.9) ;
+    // background:rgba(5, 1, 2, 0.9) ;
+    background: rgba(208, 48, 77, 0.9);
     overflow: hidden;
     height:25rem;
 
@@ -97,6 +98,10 @@
                 .author {
                     color: #999999;
                     font-size: 14px;
+
+                    span{
+                      margin-right: 20px;
+                    }
                 }
 
                 .text {
@@ -113,7 +118,16 @@
 
         }
     }
-
+.other_containers{
+  width: 75%;
+  padding: 2rem;
+  margin:0 auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
 }
 
 @media screen and (max-width:600px) {

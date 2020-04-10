@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { withRouter } from 'react-router-dom'
-import useWindowScrollPosition from '@rehooks/window-scroll-position'
 
 import Logo from '../../../assets/images/r.svg'
 
@@ -9,36 +8,22 @@ import './index.scss'
 const Navbar = (props) => {
 
 
-    const [change, setChange] = useState(false)
-    const [isActive, setIsActive] = useState(false)
-    const changePosition = 700
-
-    const position = useWindowScrollPosition()
-
-    if (position.y > changePosition && !change) {
-        setChange(true);
-    }
-
-    if (position.y <= changePosition && change) {
-        setChange(false);
-    }
-
 
     const style = {
-        backgroundColor: change ? 'white' : 'unset',
-        boxShadow: change ? '0px 2px 13px -4px rgba(0,0,0,0.15)' : 'unset',
+        backgroundColor: 'unset',
+        boxShadow: 'unset',
         transition: '100ms ease',
-        position: change ? 'fixed' : 'relative',
+        position: 'relative',
         zIndex: 99,
         right: 0,
         left: 0,
-        top: change ? 0 : '20px',
+        top:'20px',
     };
     const navStyle = {
-        marginBottom: change ? '0' : '30px',
-        marginTop: change ? '15px' : '0px',
+        marginBottom: '30px',
+        marginTop: '0px',
         transition: 'all 0.5s',
-        paddingTop: change ? 0 : '0px'
+        paddingTop: '0px'
     }
 
     return (

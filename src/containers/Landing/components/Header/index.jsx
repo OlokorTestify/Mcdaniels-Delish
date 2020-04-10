@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import NavBar from '../Navbar'
 
@@ -14,20 +14,20 @@ const Header = (props) => (
             <NavBar />
             <div className='main'>
                 <div>
-                    <h1>McDaniel's Delish Kitchen</h1>
+                    <h1>McDaniels Delish Kitchen</h1>
                     <p className='slogan'>...We cater different,we do it awesome...</p>
                     <p>...Catering and cooking services...You are in charge,you simply tell us what to do and we do it</p>
                     <div className='btn_container'>
-                    <button> <a href='#Contact'>Contact us</a> </button>
-                    <button><Link to='/menu'>Menu list</Link> </button>
+                        <button> <a href='#Contact'>Contact us</a> </button>
+                        <button><Link to='/menu'>Menu list</Link> </button>
                     </div>
                 </div>
                 <div>
-                    <img src={img1} alt='egusi_soup' />
+                    <img src='https://i.ytimg.com/vi/E59Hc3FfL3w/maxresdefault.jpg' alt='egusi_soup' />
                 </div>
             </div>
         </section>
-        </>
+    </>
 );
 
 export default Header

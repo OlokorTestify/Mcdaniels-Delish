@@ -20,15 +20,15 @@ const Contact = () => {
                     <div className='media'>
                         <div>
                             <img src={email} alt='email' />
-                            <span>mercydaniels347@gmail.com</span>
+                            <span>danielsmercy4@gmail.com</span>
                         </div>
                         <div>
                             <img src={call} alt='email' />
-                            <span>09090909090</span>
+                            <span>07061630054</span>
                         </div>
                         <div>
                             <img src={whatsapp} alt='email' />
-                            <span>09090909090</span>
+                            <span>080220822198</span>
                         </div>
                     </div>
                     <div className='map'>

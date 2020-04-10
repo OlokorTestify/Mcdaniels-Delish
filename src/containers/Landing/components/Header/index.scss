@@ -83,7 +83,7 @@
             }
 
             img {
-                height: 520px;
+                height: 480px;
                 width: auto;
                 border-radius: 246px;
                 margin-right: -22rem;
@@ -99,22 +99,7 @@
     }
 }
 
-@media screen and (max-width:1300px) {
-    .header {
-        .bg {
-            width: 63rem;
-        }
 
-        .main {
-            div {
-                img {
-                    height: 470px;
-                }
-            }
-        }
-
-    }
-}
 
 @media screen and (max-width:1300px) {
     .header {

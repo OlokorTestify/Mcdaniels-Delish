@@ -1,5 +1,6 @@
 import React from 'react'
 
+import scrollToTop from '../../components/scrollToTop'
 import Header from './components/Header'
 import What from './components/What'
 import Why from './components/Why'
@@ -15,6 +16,7 @@ const Landing = (props) => {
 
     return (
         <>
+        <scrollToTop/>
             <Header />
             <What />
             <Why />
